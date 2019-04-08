@@ -1,0 +1,144 @@
+html{
+    font-family: "Calibri";
+}
+
+li a.cb{
+    color:gray;
+}
+li a.cb:hover{
+    color:black;
+    text-decoration: underline;
+}
+li a.nav-link{
+    color:gray;
+}
+li a.nav-link:hover{
+    color:black;
+}
+li a.active{
+    color:black;
+}
+li.menu{
+    font-size: 1.2rem;
+    text-align: left;
+    text-shadow:1px 1px gray;
+    border-bottom:1px solid gray;
+    padding: 0.5rem 3rem 0 0;
+    margin: 0 3rem;
+    width:13rem;
+}
+li.menu:hover{
+    border-bottom:1px solid black;
+    text-shadow:1px 1px black;
+}
+ul{
+    padding-left: 0;
+}
+h1{
+    font-family: "Fabrikat W00", sans-serif;
+    font-weight: bold;
+}
+img{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+span img{
+    display: inline;
+    margin: 0 auto;
+}
+
+.c0{
+    padding: 20% 20%;
+}
+.b0{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.pfl,.pfr{
+    padding-top: 1rem;
+    padding-left: 10%;
+}
+.plr{
+    padding-right: 20%;
+}
+ul{
+    margin-top: 0;
+    list-style-type: none;
+}
+li a{
+    color:#fff;
+}
+li a:hover{
+    color:#fff;
+}
+.foot{
+    background-color: #262621;
+    color:#fff;
+}
+.txtcenter{
+    text-align: center;
+    margin-bottom: 0;
+}
+.spaces{
+    padding: 0.1rem 1.7rem;
+    margin: .1rem 1.7rem;
+}
+ul.footer{
+    border-left: 1px solid #fff;
+    margin-left: 20%;
+}
+.txtfooter{
+    text-align: left;
+    margin-left: .8rem;
+    margin-bottom: 0;
+}
+li.txtfooter p{
+    margin-bottom: .5rem;
+    word-spacing: 1rem;
+    padding-left: 1rem;
+}
+.ptop{
+    padding-top: 1.3rem;
+}
+.pbot{
+    padding-bottom: .8rem;
+}
+.margin{
+    margin: 0 1rem;   
+}
+
+.margin-row{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.btn-dark{
+   background-color: #262621; 
+}
+.btn-dark:hover{
+    background-color: #4A4A40; 
+}
+.form-control:focus{
+    border-color:#4A4A40; 
+    box-shadow: 0 0 0 0.2rem rgba(74,74,64,.25);
+}
+.lean{
+    text-indent:2.5rem;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
